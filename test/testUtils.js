@@ -9,7 +9,7 @@ require('chai').use(require('chai-as-promised'));
 var utils = module.exports = {
 
   getUserStripeKey: function() {
-    var key = process.env.STRIPE_TEST_API_KEY || 'tGN0bIwXnHdwOa85VABjPdSn8nWY7G7I';
+    var key = process.env.STRIPE_TEST_API_KEY || 'sk_test_y2Fe9LGqa2mG7kXc3Kofgfnc';
 
     return key;
   },
